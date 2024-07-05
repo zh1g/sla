@@ -1,12 +1,12 @@
 syntax = "proto3";
 
-package caiyun.sla
+package caiyun.sla;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "github.com/zh1g/caiyun/sla;sla";
+option go_package = "github.com/zh1g/sla;sla";
 
 
 extend google.protobuf.MethodOptions {
-  string level = 2004;
+  string level = 2014;
 }
